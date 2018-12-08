@@ -19,7 +19,7 @@ void spi_send( uint8_t byte );
 
 void spi_send( uint8_t byte )
 {
-	struct spi_comend spi_cmd;
+	struct spi_command spi_cmd;
 	uint8_t temp;
 
 	memset(&spi_cmd, 0, sizeof(struct spi_command) );
